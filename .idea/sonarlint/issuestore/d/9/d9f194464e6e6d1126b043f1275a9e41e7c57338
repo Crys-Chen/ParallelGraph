@@ -1,0 +1,9 @@
+
+dpython:S2208"GImport only needed names or import the module and then use its members.(ú£ú‚úÿÿÿÿ
+dpython:S2208"GImport only needed names or import the module and then use its members.(›Ÿ‹ùúÿÿÿÿ
+dpython:S2208"GImport only needed names or import the module and then use its members.(‡¬÷ÿÿÿÿÿ
+_python:S2208"GImport only needed names or import the module and then use its members.(Šàğı
+qpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.(Ó°şÊüÿÿÿÿ
+Hpython:S5806"+Rename this variable; it shadows a builtin.(÷ßÆÄüÿÿÿÿ
+bpython:S1542b"JRename function "SIMD" to match the regular expression ^[a-z_][a-z0-9_]*$.(†ŞŞí
+6python:S125n"Remove this commented out code.(ş‰Ûí

@@ -10,6 +10,10 @@ class Matrix:
         return self.name == other.name
 
 class Source:
+    """
+    The source of the input data of an instruction
+    {matrix_name: column}
+    """
     def __init__(self, 
                  name: str = "", 
                  cols: set = set()) -> None:
@@ -62,6 +66,9 @@ class MatrixElement(Data):
         return self.matrix.name+"("+str(self.row)+","+str(self.col)+")"
     
 class InterData(Data):
+    """
+    Intermediate Data among instructions
+    """
     def __init__(self,
                  src: Source,
                  inst: int) -> None:

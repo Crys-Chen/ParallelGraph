@@ -11,8 +11,8 @@ class Instruction:
                  depend: set) -> None:
         self.type = type
         self.src = src
-        self.previous = previous
-        self.depend = depend
+        self.previous = previous # Last instructions
+        self.depend = depend # All dependencies
 
     def combinable(self, other):
         return self.type == other.type and self.src == other.src

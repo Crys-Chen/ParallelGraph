@@ -1,0 +1,5 @@
+graphs/
+.idea/
+__pycache__
+test.log
+SIMD
